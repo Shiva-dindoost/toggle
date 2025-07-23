@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="section-item">
+            <button id="btn-user" onclick="hideuser()">user</button>
+        </div>
+        <div id="users-section">
+            <div class="row">
+                <div class=" container-section">
+                    <div class=" col-md user1">
+                        <p>marry</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnE45CIe6oWMvhRSisAhcX86bqsZLszczKLw&s"
+                            alt="">
+                    </div>
+                    <div class=" col-md user2">
+                        <p>joodi</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzFHcBzAXa8ECxZ6qa57leNCdpCbyiGKurA&s"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function hideuser() {
+            let showuser = document.getElementById("users-section");
+            showuser.classList.toggle("hide");
+        }
+    </script>
+</body>
+
+</html>

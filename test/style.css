@@ -1,0 +1,57 @@
+.hide {
+    visibility: hidden;
+}
+
+.section-item {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 580px;
+    height: 50px;
+}
+
+body {
+    background-color: rgb(127, 127, 245);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 10px;
+   
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+#btn-user {
+    background-color: rgb(127, 127, 245);
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(11, 66, 114);
+    text-align: center;
+}
+
+.user1,
+.user2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border: 2px solid rgb(90, 87, 87);
+    border-radius: 10px;
+}
